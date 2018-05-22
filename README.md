@@ -18,4 +18,4 @@ const stripeKey = 'pk_test_XXX';
 
 ```
 
-and run `yarn start` or ``
+and run `yarn start` or `npm start`
