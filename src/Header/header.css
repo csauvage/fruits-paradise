@@ -1,0 +1,52 @@
+
+
+
+
+header {
+    background-image: linear-gradient(to right, rgba(192, 37, 37, 0.37), rgba(205, 45, 34, 0.6)), url("./strawberries.jpg");
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    width: 100%;
+    min-height: 30vh;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+
+    padding-top: 30px;
+}
+
+h1 {
+    margin: 0px;
+    color: white;
+    font-size: 4em;
+    font-family: 'Baloo Chettan', cursive;
+}
+
+h2 {
+    margin: 0px;
+    color: white;
+    font-size: 2em;
+    font-family: 'Baloo Chettan', cursive;
+}
+
+svg {
+    margin: 0px;
+    position: absolute;
+    bottom: -2px;
+    width: 100%;
+    font-family: 'Baloo Chettan', cursive;
+}
+
+svg polygon {
+    fill: white;
+}
+
+/*
+font-family: 'Baloo Chettan', cursive;
+font-family: 'Nanum Gothic', sans-serif;
+*/

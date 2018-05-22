@@ -1,0 +1,89 @@
+.shopping__cart {
+    display: flex;
+    width: 50%;
+    background-color: #f1f1f1;
+    padding: 5px 20px;
+    margin: auto;
+
+    justify-items: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 30px;
+
+}
+
+ul.shopping__list{
+    width: 100%;
+    padding: 10px;
+    list-style: none none;
+
+}
+
+li.shopping__item {
+    display: flex;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 1.5em;
+    background-color: white;
+    padding: 15px 20px;
+    margin: 15px;
+
+
+}
+
+li .shopping__item__name {
+    flex-grow: 8;
+    font-size: 0.8em;
+}
+
+ul.shopping__item__actions {
+    display: flex;
+    flex-direction: row;
+    list-style: none none;
+    justify-items: center;
+    align-items: center;
+
+}
+
+    ul.shopping__item__actions li {
+        font-size: 1.5rem;
+        border: 2px solid;
+        width: 30px;
+        text-align: center;
+        border-radius: 15px;
+        user-select: none;
+        cursor: pointer;
+    }
+
+    ul.shopping__item__actions li:first-child {
+         color: red;
+         margin-right: 5px;
+     }
+
+    ul.shopping__item__actions li:first-child:hover {
+        background-color: red;
+        color: white;
+        margin-right: 5px;
+    }
+
+    ul.shopping__item__actions li:last-child {
+        color: green;
+    }
+    ul.shopping__item__actions li:last-child:hover {
+        background-color: green;
+        color: white;
+    }
+
+    ul.shopping__item__actions li:nth-child(2) {
+        border: none;
+    }
+
+
+h3 {
+    font-family: 'Baloo Chettan', cursive;
+    font-size: 2em;
+}
+
+h4 {
+    font-family: 'Baloo Chettan', cursive;
+    font-size: 1.6em;
+}
